@@ -14,9 +14,12 @@
 }
 
 body {
-	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5f9150, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1D976C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f9150, #FFFFFF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
   font-family: 'Ek Mukta', sans-serif;
   font-weight: 300;
@@ -27,44 +30,127 @@ body {
 }
 
 .bodystyle {
-	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5f9150, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #1D976C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f9150, #FFFFFF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
 }
 
 .bodymusic {
-	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5f9150, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1D976C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f9150, #FFFFFF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 html {
   width: 100%;
   height: 100%;
-	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5f9150, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #1D976C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f9150, #FFFFFF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#aboutcontainer {
+  background: #1c92d2!important;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2fcfe, #1c92d2) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-
-.test1{
-	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
- font-weight: normal;
+.test1 {
+  font-family: 'Hoefler Text', Georgia, 'Times New Roman', serif;
+  font-weight: normal;
   font-size: 1.45em;
- letter-spacing: .2em;
- line-height: 1.1em;
- margin:0px;
- height: 100%;
- text-align: center;
- text-transform: uppercase;
- overflow: hidden;
+  letter-spacing: .2em;
+  line-height: 1.1em;
+  margin: 0px;
+  height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
 }
 
+.contacta {
+  color: #e66c7e;	border-bottom: 2px solid #e66c7e;
+	font-family: 'Cormorant Garamond';
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.contactp {
+  color: #fff;
+
+	font-family: 'Cormorant Garamond';
+	font-size: 28px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 48px;
+	max-width: 640px;
+	margin: 0 auto 48px;
+	text-align: center;
+}
+
+
+.contacth1 {
+  color: #fff;
+  	font-family: 'Cormorant Garamond';
+  	border-bottom: 3px solid #e66c7e;
+  	font-size: 48px;
+  	font-weight: 400;
+  	line-height: 72px;
+  	letter-spacing: 35px;
+  	margin-bottom: 57px;
+  	text-align: center;
+  	text-indent: 24px;
+  	text-transform: uppercase;
+}
+
+.contact1 a:hover {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+#notfooter{
+
+  background: #1D2B64 !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #F8CDDA, #1D2B64) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #F8CDDA, #1D2B64)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* calander section */
+
+
+/* end calander section */
 
 h1 {
   color: #ffffff;
@@ -281,7 +367,7 @@ blockquote strong {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   margin-top: 15px;
-	margin-left: 0px;
+  margin-left: 0px;
 }
 
 /* ------- Navigation ------------ */
@@ -1021,10 +1107,13 @@ form.search-form input:focus {
 --- Footer
 ============================ */
 footer {
-	background: #1D976C;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF)!important;  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #5f9150, #FFFFFF)!important;
+  background: #1D976C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5f9150, #FFFFFF) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5f9150, #FFFFFF) !important;
 }
+
 footer {
   text-align: center;
   padding: 50px 0 30px;

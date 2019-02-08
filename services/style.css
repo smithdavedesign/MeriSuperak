@@ -1,0 +1,45 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+.music {
+  background: url(../img/wow.jpg) no-repeat center center fixed !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.textp {
+    color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 40px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 14pt;
+    font-variant: small-caps;
+  }
+.composer{
+  background: url(../img/leaves.jpg) no-repeat center center fixed !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+}
