@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- css -->
+  <link href="color/default.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
   <link href="css/nivo-lightbox.css" rel="stylesheet" />
@@ -12,13 +13,18 @@
   <link href="css/animations.css" rel="stylesheet" />
   <link href="css/stylemusic.css" rel="stylesheet">
   <link href="css/aboutMeStyle.css" rel="stylesheet">
-  <link href="css/magnific-popup.css" rel="stylesheet">
+ <link href="css/magnific-popup.css" rel="stylesheet">
   <link href="css/nice-select.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="musicplayist/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Martel:400,400italic,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
   <!-- SEO -->
   <title>Marry Superak</title>
@@ -69,154 +75,155 @@
   <!-- /Navigation -->
 
 
-  <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" *// src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/282622918&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-  <section class="portfolio-area section-gap" id="portfolio">
+
+  <section>
     <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content col-lg-10">
-          <div class="title text-center">
-            <div class="jumbotron jumbotron-fluid">
-              <div class="container">
-                <h1 class="display-4">Albums and Singles</h1>
-                <p class="lead">Shop and listen to my music here</p>
-              </div>
+      <div class="column center">
+        <h1>Album: Compassionate Companionship</h1>
+        <h6>Being Present for comfort and companionship with Patients is an honor and privilege. The music here was recorded with love, joy, and humility for all in need of Compassion Companionship</h6>
+      </div>
+      <div class="column add-bottom">
+        <div id="mainwrap">
+          <div id="nowPlay">
+            <span class="left" id="npAction">Paused...</span>
+            <span class="right" id="npTitle"></span>
+          </div>
+          <div id="audiowrap">
+            <div id="audio0">
+              <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
             </div>
-
-            <!-- <h1 class="mb-10">Albums and Singles</h1>
-            <p >Shop and listen</p> -->
+            <div id="tracks">
+              <a id="btnPrev">&laquo;</a>
+              <a id="btnNext">&raquo;</a>
+            </div>
+          </div>
+          <div id="plwrap">
+            <ul id="plList">
+              <li>
+                <div class="plItem">
+                  <div class="plNum">01.</div>
+                  <div class="plTitle">Mountain Home Dawning: Meri Superak</div>
+                  <div class="plLength">12:51</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">02.</div>
+                  <div class="plTitle">Water Is Wide: Carol Ng</div>
+                  <div class="plLength">4:15</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">03.</div>
+                  <div class="plTitle">Carolan's Dream/Greenslaves/Improv: Arr. Victor Simon</div>
+                  <div class="plLength">18:26</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">04.</div>
+                  <div class="plTitle">Dancing Waters: Meri Superak</div>
+                  <div class="plLength">7:54</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">05.</div>
+                  <div class="plTitle">Angelic Waltz: Carol Ng</div>
+                  <div class="plLength">3:44</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">06.</div>
+                  <div class="plTitle">Far Beyond Yon Mountain: Arr. Victor Simon</div>
+                  <div class="plLength">4:22</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">07.</div>
+                  <div class="plTitle">Deep Longing: Meri Superak</div>
+                  <div class="plLength">5:03</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">08.</div>
+                  <div class="plTitle">Bittersweet/Time To Say Goodnight: Arr. Carrol Ng</div>
+                  <div class="plLength">7:30</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">09.</div>
+                  <div class="plTitle">Improv in D: David Pardee</div>
+                  <div class="plLength">4:39</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">10.</div>
+                  <div class="plTitle">At The Edge of the White Rock: Arr. Victor Simon</div>
+                  <div class="plLength">4:37</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">11.</div>
+                  <div class="plTitle">Foggy Dew: Arr. Carol Ng</div>
+                  <div class="plLength">5:19</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">12.</div>
+                  <div class="plTitle">Willow My Friend: Meri Superak</div>
+                  <div class="plLength">10:34</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">13.</div>
+                  <div class="plTitle">O Wise One (O Vis Gud): Arr. Victor Simon</div>
+                  <div class="plLength">4:58</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">14.</div>
+                  <div class="plTitle">Cherry Tree Carol: Arr. Victor Simon</div>
+                  <div class="plLength">5:14</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">15.</div>
+                  <div class="plTitle">Moon Represents My Heart: Arr. Carol Ng</div>
+                  <div class="plLength">4:21</div>
+                </div>
+              </li>
+              <li>
+                <div class="plItem">
+                  <div class="plNum">16.</div>
+                  <div class="plTitle">Exploration: Meri Superak</div>
+                  <div class="plLength">3:49</div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-
-      <div class="filters">
-        <ul>
-          <li class="active" data-filter="*">All</li>
-          <li data-filter=".corporate">Flute</li>
-          <li data-filter=".personal">Piano</li>
-          <li data-filter=".agency">Singing</li>
-          <li data-filter=".portal">another?</li>
-        </ul>
-      </div>
-
-      <div class="filters-content">
-        <div class="row grid">
-          <div class="single-portfolio col-sm-4 all corporate">
-            <div class="item">
-              <img src="img/p1.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h4>3D Helmet Design</h4>
-                <div class="cat">Corporate</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all personal">
-            <div class="item">
-              <img src="img/p2.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h4>2D Vinyl Design</h4>
-                <div class="cat">Personal</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all agency">
-            <div class="item">
-              <img src="img/p3.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h5>Creative Poster Design</h5>
-                <div class="cat">Agency</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all portal">
-            <div class="item">
-              <img src="img/p4.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h5>Embosed Logo Design</h5>
-                <div class="cat">Portal</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="single-portfolio col-sm-4 all corporate">
-            <div class="item">
-              <img src="img/p5.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h4>3D Helmet Design</h4>
-                <div class="cat">Corporate</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all personal">
-            <div class="item">
-              <img src="img/p6.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h4>2D Vinyl Design</h4>
-                <div class="cat">Personal</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all agency">
-            <div class="item">
-              <img src="img/p2.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h5>Creative Poster Design</h5>
-                <div class="cat">Agency</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all portal">
-            <div class="item">
-              <img src="img/p3.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h5>Embosed Logo Design</h5>
-                <div class="cat">Portal</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all corporate">
-            <div class="item">
-              <img src="img/p4.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h4>3D Helmet Design</h4>
-                <div class="cat">Corporate</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all personal">
-            <div class="item">
-              <img src="img/p3.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h4>2D Vinyl Design</h4>
-                <div class="cat">Personal</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all agency">
-            <div class="item">
-              <img src="img/p2.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h5>Creative Poster Design</h5>
-                <div class="cat">Agency</div>
-              </div>
-            </div>
-          </div>
-          <div class="single-portfolio col-sm-4 all portal">
-            <div class="item">
-              <img src="img/p1.jpg" alt="Work 1">
-              <div class="p-inner">
-                <h5>Embosed Logo Design</h5>
-                <div class="cat">Portal</div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
     </div>
+
   </section>
-  </section>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+  <script src='http://api.html5media.info/1.1.8/html5media.min.js'></script>
+  <script src="musicplayist/js/index.js"></script>
+
   <!-- End portfolio-area Area -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
