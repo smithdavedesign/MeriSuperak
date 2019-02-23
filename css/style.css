@@ -273,7 +273,9 @@ a:hover {}
   font-size: 14pt;
   font-variant: small-caps;
 }
-
+.quote--highlight {
+    color: #D24335;
+}
 .missionheadline {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
